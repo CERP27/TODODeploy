@@ -13,7 +13,8 @@ export const DB_URL = process.env.MONGOURL || "localhost:27017";
 export const TOKEN_SECRET = process.env.TOKENSECRET || null;
 
 export const corsOptions = {
-  origin: "http://localhost:5173",
+  // origin: "http://localhost:5173",
+  origin: "https://todoappclient-o2au.onrender.com",
   optionsSuccessStatus: 200,
   credentials: true,
 };
